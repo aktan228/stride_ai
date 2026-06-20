@@ -1,0 +1,58 @@
+[
+  {
+    "id": "datanexus",
+    "company": "DataNexus Corp",
+    "status": "attention",
+    "score": 9.5,
+    "funding": "Series B",
+    "last_message": "Звучит интересно, пришлите подробную презентацию решения",
+    "last_kind": "chat",
+    "highlight": false
+  },
+  {
+    "id": "cloudstream",
+    "company": "CloudStream Systems",
+    "status": "in_dialog",
+    "score": 8.0,
+    "funding": "Public",
+    "last_activity": "Обновлено: 2 часа назад — согласование этапов пилота",
+    "last_kind": "schedule"
+  },
+  {
+    "id": "vanguard",
+    "company": "Vanguard Logistics",
+    "status": "meeting_set",
+    "score": 9.0,
+    "funding": "Enterprise",
+    "last_activity": "Встреча: завтра 14:00 (Demo call)",
+    "last_kind": "event"
+  },
+  {
+    "id": "neobank",
+    "company": "NeoBank Solutions",
+    "status": "waiting",
+    "score": 7.0,
+    "funding": "Series A",
+    "last_activity": "Последнее: Письмо отправлено 3 дня назад",
+    "last_kind": "mail"
+  },
+  {
+    "id": "technoscale",
+    "company": "TechnoScale Global",
+    "status": "attention",
+    "score": 10.0,
+    "funding": "Series C",
+    "last_activity": "Обнаружен новый сигнал: Найм CTO",
+    "last_kind": "bolt",
+    "highlight": true
+  },
+  {
+    "id": "ecobuild",
+    "company": "EcoBuild Innovations",
+    "status": "in_dialog",
+    "score": 6.0,
+    "funding": "Bootstrapped",
+    "last_message": "Обсудим бюджет в понедельник",
+    "last_kind": "forum"
+  }
+]

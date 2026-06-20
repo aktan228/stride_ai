@@ -1,0 +1,57 @@
+[
+  {
+    "id": "acme",
+    "name": "Acme Corp",
+    "description": "Растущий SaaS-стартап в сфере финтеха.",
+    "industry": "Финтех",
+    "funding": "Series B",
+    "size": "150-200",
+    "signal": "Недавно закрыли раунд Series B",
+    "score": 9.4,
+    "qualified": true
+  },
+  {
+    "id": "globex",
+    "name": "Globex",
+    "description": "Логистический провайдер корпоративного уровня, расширяющийся в регионе EMEA.",
+    "industry": "Логистика",
+    "funding": "Enterprise",
+    "size": "500+",
+    "signal": "Экспансия в регион EMEA",
+    "score": 8.4,
+    "qualified": true
+  },
+  {
+    "id": "soylent",
+    "name": "Soylent Corp",
+    "description": "Биотех-компания, специализирующаяся на устойчивом питании.",
+    "industry": "Биотех",
+    "funding": "Series B",
+    "size": "200-500",
+    "signal": "Запуск новой продуктовой линейки",
+    "score": 7.6,
+    "qualified": true
+  },
+  {
+    "id": "initech",
+    "name": "Initech",
+    "description": "Глобальный поставщик банковского ПО из Кремниевой долины.",
+    "industry": "Банковское ПО",
+    "funding": "Public",
+    "size": "1000+",
+    "signal": null,
+    "score": null,
+    "qualified": null
+  },
+  {
+    "id": "umbrella",
+    "name": "Umbrella Group",
+    "description": "Многопрофильный конгломерат с фокусом на фармацевтических исследованиях.",
+    "industry": "Фарма",
+    "funding": "Public",
+    "size": "5000+",
+    "signal": null,
+    "score": null,
+    "qualified": null
+  }
+]

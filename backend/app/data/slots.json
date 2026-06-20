@@ -1,0 +1,13 @@
+{
+  "timezone": "UTC -5",
+  "slots": [
+    { "id": "s1", "day": "Пн", "time": "10:00", "available": true },
+    { "id": "s2", "day": "Пн", "time": "14:00", "available": true },
+    { "id": "s3", "day": "Вт", "time": "11:00", "available": true },
+    { "id": "s4", "day": "Вт", "time": "15:30", "available": true },
+    { "id": "s5", "day": "Ср", "time": "09:00", "available": true },
+    { "id": "s6", "day": "Чт", "time": "13:00", "available": true },
+    { "id": "s7", "day": "Пт", "time": "10:00", "available": true },
+    { "id": "s8", "day": "Пт", "time": "16:00", "available": true }
+  ]
+}
