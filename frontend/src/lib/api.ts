@@ -6,12 +6,15 @@ import type {
   Slot,
 } from "../types";
 
+const baseUrl = import.meta.env.VITE_API_BASE_URL ?? "";
+
 async function http<T>(url: string, options?: RequestInit): Promise<T> {
-  const res = await fetch(url, {
+  const fullUrl = baseUrl ? `${baseUrl}${url}` : url;
+  const res = await fetch(fullUrl, {
     headers: { "Content-Type": "application/json" },
     ...options,
   });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText} — ${url}`);
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText} — ${fullUrl}`);
   return (await res.json()) as T;
 }
 
