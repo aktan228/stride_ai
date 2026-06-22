@@ -14,11 +14,14 @@ class Settings:
     # Master switch: mocks now, real services later.
     USE_MOCKS: bool = os.getenv("USE_MOCKS", "true").lower() != "false"
 
-    # CORS origins for the Vite dev server.
+    # CORS origins for local dev and deployed frontend.
     CORS_ORIGINS: list[str] = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://stride-65hmgw3xw-aktan228s-projects.vercel.app",
     ]
+    if env := os.getenv("CORS_ORIGINS"):
+        CORS_ORIGINS = [origin.strip() for origin in env.split(",") if origin.strip()]
 
     # Pacing (seconds) for the scripted live pipeline so the demo reads well.
     PIPELINE_STEP_DELAY: float = float(os.getenv("PIPELINE_STEP_DELAY", "1.1"))
